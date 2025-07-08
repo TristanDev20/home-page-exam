@@ -1,0 +1,64 @@
+/*CSS Reset Rule*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+
+}
+
+#brand {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#brand:hover{
+  color:#B17F59;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
+
+#welcome{
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+#welcome:hover{
+  color: darkred;
+}
+
+#welcome-p{
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#btn-view-menu{
+  background-color: #B17F59;
+  color: whitesmoke;
+
+}
+
+#heading{
+  font-size: 2.5rem;
+}
+
+#heading-p{
+  font-size: 1.5rem;
+}
+
+.card-img-top{
+  max-height: 500px;
+  object-fit: cover;
+}
